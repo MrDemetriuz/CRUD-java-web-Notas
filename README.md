@@ -39,6 +39,8 @@ Pré-requisitos:
 
 Instruções de instalação:
 
+- Baixar o arquivo zip encontrado em https://github.com/MrDemetriuz/CRUD-java-web-Notas/releases/tag/release.
+
 - Baixar e configurar o Tomcat 10.1
 
 Baixe o Apache Tomcat 10.1 do site oficial https://tomcat.apache.org/download-10.cgi.
