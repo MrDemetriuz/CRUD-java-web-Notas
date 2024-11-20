@@ -32,7 +32,7 @@ Pré-requisitos:
 
 - Tomcat 10.1 ou superior configurado.
 
-- MySQL configurado e rodando (arquivo sql pode ser achado dentro da pasta do repositório).
+- MySQL configurado e rodando (arquivo script sql pode ser achado dentro da pasta do repositório).
 
 - IDE de sua escolha (por exemplo, Eclipse, IntelliJ, NetBeans).
 
@@ -47,7 +47,7 @@ Extraia o conteúdo para o diretório de sua escolha e configure o Tomcat no seu
 - Configuração do MySQL
 
 Certifique-se de que o MySQL está instalado e rodando no seu sistema.
-Execute o script SQL para criar as tabelas necessárias (arquivo sql pode ser achado dentro da pasta do repositório).
+Execute o script SQL para criar as tabelas necessárias (arquivo script sql pode ser achado dentro da pasta do repositório).
 
 você terá que mudar o username e senha do banco nos arquivos: "UsuarioDao.java e VerificarLogin.java".
 
