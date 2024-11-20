@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>novo registro</title>
+    <link rel="icon" href=imagens/lapis.png>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<style>
+    h1 {
+      text-align: center;
+    }
+  </style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="selectNota.jsp" class="botao1"> Voltar</a><br><br>
+    <a href="LogoutServlet" class="botao1">Sair</a>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+        
+    </div>
+</nav>
+
+    <h1>Criar Novo Registro</h1>
+    
+    <!-- Ação do formulário configurada para o servlet "insert" e método POST -->
+    <form action="NewNotaServlet" method="POST">
+        <table>
+            <tr>
+                <td><input type="text" name="titulo" placeholder="Título" class="Caixa1" required></td>
+                <td><input type="date" name="data" placeholder="Data" class="Caixa1" required></td>
+                
+            </tr>
+            <tr>
+                <td><textarea name="conteudo" rows="15" cols="150" placeholder="Escreva seu conteúdo" class="Caixa1" required></textarea></td>
+            </tr>
+        </table>
+        <input type="submit" value="Adicionar" class="botao1">
+    
+    
+   </form>
+    <script src="scripts/validador.js"></script>
+</body>
+</html>
